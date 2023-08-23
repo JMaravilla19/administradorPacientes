@@ -51,7 +51,7 @@ class UI{
 
          //Agregar al DOM
          const contenido = document.querySelector('#contenido');
-         if( contenido.children[0].classList.contains('alert-danger') ){
+         if( contenido.children[0].classList.contains('alert-danger') || contenido.children[0].classList.contains('alert-success')){
             return;
          }
 
